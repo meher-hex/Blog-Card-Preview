@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(243,211,76);
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18vh;
+}
+.box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 230px;
+    height: 328px;
+    padding: 14px;
+    border: solid 1px black;
+    border-radius: 12px;
+    box-shadow: 5px 5px black;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+.blog {
+    width: 235px;
+    height: 8.5em;
+    margin-bottom: 18px;
+}
+.status {
+    display: inline-block;
+    background-color: rgb(243,211,76);
+    height: 15px;
+    width: 55px;
+    margin: 0;
+    padding: 5px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 800;
+}
+.publish-date {
+    font-size: 10.2px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.title {
+    margin-top: 13px;
+    margin-bottom: 11px;
+    font-size: 17px;
+    font-weight: 800;
+}
+.description {
+    font-weight: 450;
+    font-size: 10.8px;
+    margin-bottom: 13px;
+    color: rgb(115, 115, 115);
+}
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.author-pic {
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    width: 25px;
+    height: 25px;
+}
+.author-name {
+    font-size: 10px;
+    margin: 10px;
+    font-weight: 800;
+}
